@@ -1,4 +1,4 @@
-# Residencia de Software Serratec 2020
+# API Ecommerce Gabarito
 ## Projeto Backend Java - Ecommerce
 
 Durante a disciplina de Java 2 Backend, foi passado como projeto final a construção de uma pequena api para o projeto de banco de dados apresentado na disciplina de Banco de Dados. Como cada um dos alunos/grupos acabaram desenvolvendo tanto o banco de dados como a api com pequenas diferenças, este projeto que aqui se apresenta tem dois objetivos:
