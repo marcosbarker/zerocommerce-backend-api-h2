@@ -45,7 +45,7 @@ insert into produto (id, nome, descricao, qtd_estoque, valor, id_categoria, id_f
    (7, 'Fita Crepe',              'Fita crepe simples',              33 ,    1.30, 2, 1, '2012-12-15', 7),
    (8, 'Mousepad',                'Mousepad estilizado com foto',    13 ,   25.00, 1, 1, '2020-01-04', 8),
    (9, 'A Batalha do Apocalipse', 'Melhor livro que voce deve ler',  42 ,   55.00, 3, 2, '2009-01-21', 9),
-   (10, 'Cadeira Gamer Razer Tarok Essential', 'RAZER ™ EDITION Projetada pela ZEN', 8 , 1784.00, 1, '2020-01-21', 10);
+   (10, 'Cadeira Gamer Razer Tarok Essential', 'RAZER ™ EDITION Projetada pela ZEN', 8 , 1784.00, 2, 3, '2020-01-21', 10);
 insert into pedido (id, id_cliente, data_pedido, status) values 
   ( 1, 1, '2020-08-30 20:10:10', 4),
   ( 2, 1, '2020-09-10 12:13:12', 2),
