@@ -5,23 +5,23 @@ insert into categoria (id, nome, descricao) values
    (4, 'CARTAS RPG', 'Pokemon, D&D, Magic');
    
 insert into funcionario (id, cpf, nome) values
-   (1, '62730162089', 'José da silva'),
-   (2, '17602085078', 'Maria José'),
-   (3, '99124915050', 'Joaquim Manoel');
+   (1, '46416606038', 'Sebastião Anderson Farias'),
+   (2, '88955429088', 'Antonio Elias Barbosa'),
+   (3, '67048069031', 'Mirella Bárbara de Paula');
    
 insert into cliente(id, cpf, nome, email, data_nascimento, login) values
-   (1, '65782885033', 'Jose das Coves',    'jose.coves@email.com',     '1992-02-01', 'josecoves'),
-   (2, '69191608031', 'Maria das Coves',   'maria.coves@email.com',    '1993-04-06', 'maria'),
-   (3, '64294714034', 'Claudio Jose',      'claudio.jose@email.com',   '1991-08-13', 'claudio'),
-   (4, '64294714034', 'Daniele Aparecida', 'dani.aparecida@email.com', '2002-03-21', 'dani'),
-   (5, '56943214055', 'Cleberson Carlos',  'kleb1990@email.com',       '2001-07-11', 'clebinho');
+   (1, '60530582031', 'Ester Antonella Peixoto',    'ester@email.com',     '1992-02-01', 'ester'),
+   (2, '59456286037', 'Severino Cauê Victor Souza',   'severino@email.com',    '1993-04-06', 'severino'),
+   (3, '31804568090', 'Catarina Priscila Aragão',      'catarina@email.com',   '1991-08-13', 'catarina'),
+   (4, '58005641087', 'Gustavo Nicolas Teixeira', 'gustavo@email.com', '2002-03-21', 'gustavo'),
+   (5, '77352233075', 'Emanuelly Bárbara Rosa da Cunha',  'rosa@email.com',       '2001-07-11', 'rosa');
    
 insert into endereco (id, id_cliente, logradouro, numero, complemento, bairro, cidade, cep, uf) values
-   (1, 1, 'Rua dos Bobos', '0',  '',        'Castanheira', 'Metropolis',      '23451234', 'SP'),
-   (2, 2, 'Rua dos Bobos', '0',  '',        'Castanheira', 'Metropolis',      '23451234', 'SP'),
-   (3, 3, 'Estrada Torta', '45', 'Bloco 2', 'Castanheira', 'Aroeira',         '25839248', 'MG'),
-   (4, 4, 'Estrada Reta',  '19', 'Casa 2',  'Sinistro',    'Tangamandapio',   '45627894', 'MG'),
-   (5, 5, 'Rua das Ruas',  '99', '',        'Distrito 1',  'Cidade-Alerta',   '52742264', 'AL');
+   (1, 1, 'Avenida Florestal', '549',  '',  'Jardins',     'Aracruz',            '29190380',    'ES'),
+   (2, 2, 'Rua Brusque', '940',  '',        'Residencial Camargo', 'Araguaína',  '77808684',    'TO'),
+   (3, 3, 'Rua Cinqüenta e Sete', '575', '', 'Esplanada', 'Bagé',            '96420260', 'RS'),
+   (4, 4, 'Rua Lausanne',  '861', '',  'SinBethânia',    'Ipatinga',      '35164072',    'MG'),
+   (5, 5, 'Quadra SQSW',  '626', 'Bloco J',        'Setor Sudoeste',  'Brasília',      '70673510',    'AL');
    
 insert into foto (id, nome, mimetype, data) values
    (1, 'cadeira.jpg',            'image/jpeg', FILE_READ('classpath:fotos/cadeira.jpg')),
