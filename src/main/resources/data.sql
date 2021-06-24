@@ -1,7 +1,8 @@
 insert into categoria (id, nome, descricao) values
    (1, 'INFORMATICA','produtos de informática'),
    (2, 'ESCRITORIO','cadeiras, mesas, e materiais de escritório'),
-   (3, 'LIVRARIA','livros, revistas, quadrinhos');
+   (3, 'LIVRARIA','livros, revistas, quadrinhos'),
+   (4, 'CARTAS RPG', 'Pokemon, D&D, Magic');
    
 insert into funcionario (id, cpf, nome) values
    (1, '62730162089', 'José da silva'),
