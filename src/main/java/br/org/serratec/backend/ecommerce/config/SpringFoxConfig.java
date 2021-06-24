@@ -32,7 +32,7 @@ public class SpringFoxConfig {
 				"Versão 3.0",
 				"https://github.com/OsZeressemos/zeroCommerce",
 				"Apache License Version 2.0",
-				"https://github.com/OsZeressemos",
+				"https://github.com/OsZeressemos"
 			);
   	}
  	}
