@@ -19,7 +19,7 @@ public class SpringFoxConfig {
 	public Docket api() {
 		return new Docket(DocumentationType.SWAGGER_2)
 				.select()
-				.apis(RequestHandlerSelectors.basePackage("backend.ecommerce.controller"))
+				.apis(RequestHandlerSelectors.any())
 				.paths(PathSelectors.any())
 				.build()
 				.apiInfo(apiInfo());
