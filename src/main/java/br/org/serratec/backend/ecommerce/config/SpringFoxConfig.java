@@ -21,18 +21,19 @@ public class SpringFoxConfig {
 				.select()
 				.apis(RequestHandlerSelectors.basePackage("br.org.serratec.backend.ecommerce.controller"))
 				.paths(PathSelectors.any())
-				.build();
+				.build()
+				.apiInfo(apiInfo());
 	}
 	
-	@SuppressWarnings("unused")
 	private ApiInfo apiInfo() {
-		ApiInfo apiInfo = new ApiInfoBuilder()
-				.title("Documentação ZeroCommerce")
-				.description("API desenvolvida e consumida pelo site ZEROCOMMERCE")
-				.license("Apache License Version 2.0").version("3.0.0")
-				.build();
-
-		return apiInfo;
-	}
-	
-}
+			return new ApiInfo(
+				"Documentação ZeroCommerce",
+				"API desenvolvida e consumida pelo site ZEROCOMMERCE",
+				"Versão 3.0",
+				"https://github.com/OsZeressemos/zeroCommerce",
+				"Apache License Version 2.0",
+				"https://github.com/OsZeressemos",
+				Collections.emptyList() // Vendor Extensions
+	 		);
+  	}
+ 	}
