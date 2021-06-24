@@ -23,16 +23,5 @@ public class SpringFoxConfig {
 				.paths(PathSelectors.any())
 				.build()
 				.apiInfo(apiInfo());
+		}
 	}
-	
-	private ApiInfo apiInfo() {
-			return new ApiInfo(
-				"Documentação ZeroCommerce",
-				"API desenvolvida e consumida pelo site ZEROCOMMERCE",
-				"Versão 3.0",
-				"https://github.com/OsZeressemos/zeroCommerce",
-				"Apache License Version 2.0",
-				"https://github.com/OsZeressemos"
-			);
-  	}
- 	}
