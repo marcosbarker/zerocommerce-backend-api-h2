@@ -33,7 +33,6 @@ public class SpringFoxConfig {
 				"https://github.com/OsZeressemos/zeroCommerce",
 				"Apache License Version 2.0",
 				"https://github.com/OsZeressemos",
-				Collections.emptyList() // Vendor Extensions
-	 		);
+			);
   	}
  	}
