@@ -32,7 +32,8 @@ insert into foto (id, nome, mimetype, data) values
    (6, 'mouse.jpg',              'image/jpeg', FILE_READ('classpath:fotos/mouse.jpg')),
    (7, 'fitacrepe.jpg',          'image/jpeg', FILE_READ('classpath:fotos/fitacrepe.jpg')),
    (8, 'mousepad.jpg',           'image/jpeg', FILE_READ('classpath:fotos/mousepad.jpg')),
-   (9, 'batalhaapocalipse.jpg',  'image/jpeg', FILE_READ('classpath:fotos/batalhaapocalipse.jpg'));
+   (9, 'batalhaapocalipse.jpg',  'image/jpeg', FILE_READ('classpath:fotos/batalhaapocalipse.jpg')),
+   (10,'cadeirarazer.jpg',       'image/jpeg,  FILE_READ('classpath:fotos/cadeirarazer.jpg'));
    
    
 insert into produto (id, nome, descricao, qtd_estoque, valor, id_categoria, id_funcionario, data_fabricacao, id_foto) values
