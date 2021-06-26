@@ -38,8 +38,8 @@ insert into foto (id, nome, mimetype, data) values
    
    
 insert into produto (id, nome, descricao, qtd_estoque, valor, id_categoria, id_funcionario, data_fabricacao, id_foto) values
-   (1, 'Cadeira bx9',             'cadeira ergonomica confortavel',   3 ,  850.00, 2, 3, '2019-10-01', 1),
-   (2, 'Escrivainha Badesh Branca',        'escrivainha para computador',      4 , 1850.00, 2, 3, '2019-08-11', 2),
+   (1, 'Cadeira bx9',             'Cadeira ergonomica confortavel',   3 ,  850.00, 2, 3, '2019-10-01', 1),
+   (2, 'Badesh Branca',        'Escrivaninha para computador',      4 ,    480.00, 2, 3, '2019-08-11', 2),
    (3, 'Do Inferno',              'Quadrinho do Alan More',           2 ,  150.00, 3, 2, '2017-12-21', 3),
    (4, 'Use a Cabeca Java',       'Livro principal para Java',       10 ,  75.00,  3, 2, '2016-04-22', 4),
    (5, 'Tablet Samsung',          'Tablet 10 polegadas',              2 , 3850.00, 1, 1, '2018-02-04', 5),
