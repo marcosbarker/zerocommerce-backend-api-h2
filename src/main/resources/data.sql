@@ -25,27 +25,27 @@ insert into endereco (id, id_cliente, logradouro, numero, complemento, bairro, c
    (5, 5, 'Quadra SQSW',  '626', 'Bloco J',        'Setor Sudoeste',  'Brasília',      '70673510',    'AL');
    
 insert into foto (id, nome, mimetype, data) values
-   (1, 'cadeiraRazer.jpg',            'image/jpeg', FILE_READ('classpath:fotos/cadeiraRazer.jpg')),
-   (2, 'escrivaninha.jpg',       'image/jpeg', FILE_READ('classpath:fotos/escrivaninha.jpg')),
+   (1, 'cadeiraRazer.jpg',       'image/jpeg', FILE_READ('classpath:fotos/cadeiraRazer.jpg')),
+   (2, 'mesaGamer.jpg',       'image/jpeg', FILE_READ('classpath:fotos/mesaGamer.jpg')),
    (3, 'doinferno.jpg',          'image/jpeg', FILE_READ('classpath:fotos/doinferno.jpg')),
    (4, 'useacabeca.jpg',         'image/jpeg', FILE_READ('classpath:fotos/useacabeca.jpg')),
    (5, 'tablet.jpg',             'image/jpeg', FILE_READ('classpath:fotos/tablet.jpg')),
-   (6, 'mouse.jpg',              'image/jpeg', FILE_READ('classpath:fotos/mouse.jpg')),
+   (6, 'mouseRazer.jpg',         'image/jpeg', FILE_READ('classpath:fotos/mouseRazer.jpg')),
    (7, 'fitacrepe.jpg',          'image/jpeg', FILE_READ('classpath:fotos/fitacrepe.jpg')),
-   (8, 'mousepad.jpg',           'image/jpeg', FILE_READ('classpath:fotos/mousepad.jpg')),
+   (8, 'mousepadGamer.jpg',           'image/jpeg', FILE_READ('classpath:fotos/mousepadGamer.jpg')),
    (9, 'batalhaapocalipse.jpg',  'image/jpeg', FILE_READ('classpath:fotos/batalhaapocalipse.jpg'));
    
    
    
 insert into produto (id, nome, descricao, qtd_estoque, valor, id_categoria, id_funcionario, data_fabricacao, id_foto) values
-   (1, 'Cadeira bx9',             'Cadeira ergonomica confortavel',   3 ,  850.00, 2, 3, '2019-10-01', 1),
-   (2, 'Badesh Branca',        'Escrivaninha para computador',      4 ,    480.00, 2, 3, '2019-08-11', 2),
+   (1, 'Razer Tarok Pro',      'Cadeira gamer projetada pela ZEN',   3 ,  1859.00, 2, 3, '2019-10-01', 1),
+   (2, 'Gamer Best',        'Mesa gamer Best com estrutura em MDP',      4 ,    291.00, 2, 3, '2019-08-11', 2),
    (3, 'Do Inferno',              'Quadrinho do Alan More',           2 ,  150.00, 3, 2, '2017-12-21', 3),
    (4, 'Use a Cabeca Java',       'Livro principal para Java',       10 ,  75.00,  3, 2, '2016-04-22', 4),
    (5, 'Tablet Samsung',          'Tablet 10 polegadas',              2 , 3850.00, 1, 1, '2018-02-04', 5),
-   (6, 'Mouse Logitec',           'Mouse com 3 botoes e uma rodinha', 2 ,   50.00, 1, 3, '2019-07-13', 6),
+   (6, 'Razer Deathadder V2',     'Mouse Gamer Optical Switch, 6 Botões, 8500DPI', 2 ,   269.00, 1, 3, '2019-07-13', 6),
    (7, 'Fita Crepe',              'Fita crepe simples',              33 ,    1.30, 2, 1, '2012-12-15', 7),
-   (8, 'Mousepad',                'Mousepad estilizado com foto',    13 ,   25.00, 1, 1, '2020-01-04', 8),
+   (8, 'Mousepad',                'Mousepad Gamer Havit MP251,',    13 ,   172.00, 1, 1, '2020-01-04', 8),
    (9, 'A Batalha do Apocalipse', 'Melhor livro que voce deve ler',  42 ,   55.00, 3, 2, '2009-01-21', 9);
    
 
