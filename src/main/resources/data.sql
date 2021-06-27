@@ -25,7 +25,7 @@ insert into endereco (id, id_cliente, logradouro, numero, complemento, bairro, c
    (5, 5, 'Quadra SQSW',  '626', 'Bloco J',        'Setor Sudoeste',  'Brasília',      '70673510',    'AL');
    
 insert into foto (id, nome, mimetype, data) values
-   (1, 'cadeira.jpg',            'image/jpeg', FILE_READ('classpath:fotos/cadeira.jpg')),
+   (1, 'cadeiraRazer.jpg',            'image/jpeg', FILE_READ('classpath:fotos/cadeiraRazer.jpg')),
    (2, 'escrivaninha.jpg',       'image/jpeg', FILE_READ('classpath:fotos/escrivaninha.jpg')),
    (3, 'doinferno.jpg',          'image/jpeg', FILE_READ('classpath:fotos/doinferno.jpg')),
    (4, 'useacabeca.jpg',         'image/jpeg', FILE_READ('classpath:fotos/useacabeca.jpg')),
